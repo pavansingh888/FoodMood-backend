@@ -5,4 +5,4 @@
  module.exports={
     FETCH_RES_URL,
     FETCH_RESMENU_URL
- }
+ }   

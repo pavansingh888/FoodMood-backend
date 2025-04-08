@@ -27,7 +27,7 @@ app.get('/api/restaurants', async (req, res) => {
   }
 });
 
-// Fetch Menu API
+//Fetch Menu API
 app.get('/api/menu', async (req, res) => {
   try {
     const { 'page-type': page_type, 'complete-menu': complete_menu, lat, lng, restaurantId } = req.query;
